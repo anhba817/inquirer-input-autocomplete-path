@@ -1,0 +1,26 @@
+{
+  "name": "inquirer-input-autocomplete-path",
+  "version": "1.0.0",
+  "description": "An input prompt with support of autocomplete path",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dong.ng.tan@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@inquirer/core": "^5.0.1",
+    "@inquirer/type": "^1.1.5",
+    "chalk": "^5.3.0"
+  }
+}
